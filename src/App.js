@@ -3,8 +3,12 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>app working</h1>
+    <div >
+      <Router>
+          <Routes>
+            <Route path="/" element={<Home/>} />
+          </Routes>
+        </Router>
     </div>
   );
 }
