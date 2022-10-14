@@ -14,41 +14,43 @@ function Home() {
            <div className="tagline">Ease your searching Journey with us.</div>
            <p className="text1">GetRepos helps you to find your github repository at just the tip of your finger with various search filters.</p>
            <div className='content '></div>
+ 
 
-           <div>
-            
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                </div>
-                <div class="carousel-item">
-                  <div className='content '>1</div>
-                  {/* <img class="d-block w-100" src="..." alt="Second slide"> */}
-                </div>
-                <div class="carousel-item">
-                  <div className='content '>2</div>
-                  {/* <img class="d-block w-100" src="..." alt="Third slide"> */}
-                </div>
+           <div class="slidershow middle">
+
+            <div class="slides">
+              {/* <input type="radio" name="r" id="r1" checked> */}
+              {/* <input type="radio" name="r" id="r2">
+              <input type="radio" name="r" id="r3">
+              <input type="radio" name="r" id="r4">
+              <input type="radio" name="r" id="r5"> */}
+              <div class="slide s1">
+                {/* <img src="1.jpg" alt=""> */}
+                <div className='content '><h1>hii</h1></div>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
+              <div class="slide">
+                {/* <img src="2.jpg" alt=""> */}
+                <div style={{backgroundColor: "lightblue"}} className='content '></div>
+              </div>
+              <div class="slide">
+              <div className='content '></div>
+              </div>
+              <div class="slide">
+              <div className='content '></div>
+              </div>
+              <div class="slide">
+              <div className='content '></div>
+              </div>
             </div>
-            
-           </div>
-           
 
-            
+            <div class="navigation">
+              <label for="r1" class="bar"></label>
+              <label for="r2" class="bar"></label>
+              <label for="r3" class="bar"></label>
+              <label for="r4" class="bar"></label>
+              <label for="r5" class="bar"></label>
+            </div>
+          </div>
 
         </div> 
           
