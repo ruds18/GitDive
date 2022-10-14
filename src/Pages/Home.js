@@ -2,7 +2,8 @@ import React from 'react';
 import "../CSS/Home.css";
 import GoogleLogo from "../Assets/icons8-google-48.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import logo from '../Assets/Group 3.png'
+import logo from '../Assets/Group 3.png';
+import user from '../Assets/user_img.avif';
 
 function Home() {
   return (
@@ -15,7 +16,15 @@ function Home() {
         </div>
         <div className='left-container_testimonial-container'>
            <div className='left-container_testimonial'>
-           
+             <div className='testinomial-user_info'>
+              <div className='testinomial-user_info-image'>
+                <img src={user} alt="" />
+              </div>
+             <p >Rudransh Khandelwal</p>
+             </div>
+             <div className='testinomial-content'>
+              <p>GetRepo  was able to ease our searching experience with different profiles  , Hence were able to  meet the  deadline way early.</p>
+             </div>
            </div>
            <div className='left-container_testimonial-btns'>
               <div className='left-container_testimonial-btn active'></div>
