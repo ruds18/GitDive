@@ -41,7 +41,7 @@ function Home() {
       <h1 className='right-container_heading'>Login</h1>
       <div className='right-container_contents'>
         <p className='right-container_info'>
-        Login securely , with world’s most safest authentication
+        Login securely , with world’s most safest authentication.
         </p>
         <div className='right-container_btn'>
           <img src={logo} alt="" />
