@@ -1,6 +1,5 @@
 import React from 'react';
 import "../CSS/Home.css";
-import GoogleLogo from "../Assets/icons8-google-48.png";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../Assets/Group 3.png';
 import user from '../Assets/user_img.avif';
@@ -8,6 +7,8 @@ import user from '../Assets/user_img.avif';
 function Home() {
   return (
     <div className='home-container'>
+
+      {/* Left Part */}
       <div className='left-container'>
         <h1 className='logo'>GetRepo</h1>
         <div className='left-container_contents'>
@@ -34,6 +35,8 @@ function Home() {
               </div>
         </div>
       </div>
+
+      {/* Right Part */}
       <div className='right-container'>
       <h1 className='right-container_heading'>Login</h1>
       <div className='right-container_contents'>
@@ -50,10 +53,9 @@ function Home() {
         <div className='developers-heading'><p>Devloped by</p> </div>
         <div className='developer'>
           <p>Rudransh Khandelwal</p>
-          <p>Hitesh Telhani</p>
+          <p>Hitesh Tahiliani</p>
         </div>
       </div>
-
       </div>
     </div>
   
