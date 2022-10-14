@@ -14,14 +14,197 @@
   z-index: 1;
   top: 0;
   overflow-x: hidden;
-  padding-top: 20px;
 }
   
 .left {
   left: 0;
   background-color: #3C37FF;
 }
+.title{
+  position: absolute;
+  width: 128px;
+  height: 41px;
+  left: 38px;
+  top: 38px;
+
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+
+  color: #FFFFFF;
+}
+.tagline{
+  position: absolute;
+  width: 600px;
+  height: 150px;
+  left: 32px;
+  top: 208px;
+
+  /* font-family: 'Open Sans '; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 75px;
+
+  color: #FFFFFF;
+}
+.text1{
+  position: absolute;
+  width: 515px;
+  height: 124px;
+  left: 32px;
+  top: 384px;
+
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  /* or 200% */
+  color: rgba(255, 255, 255, 0.85);
+} 
+
+.content{
+  position: flex;
+  width: 405px;
+  height: 192px;
+  margin-top: 130%;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+  background-color: #2B26D6;
+  border-radius: 20px;
+  backdrop-filter: blur(1.9px);
+}
 
 .right {
     right: 0;
   }
+
+  .login{
+  position: absolute;
+  width: 109px;
+  height: 30px;
+  left: 38px;
+  top: 55px;
+
+  /* font-family: 'Open Sans'; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 30px;
+  /* identical to box height, or 75% */
+
+
+  color: #3C37FF;
+  }
+  .loginText{
+    position: absolute;
+    width: 493px;
+    height: 27px;
+    left: 38px;
+    top: 296px;
+    
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    /* or 176% */
+    
+    
+    color: #000000;
+  }
+
+  .googleLoginTextBox{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 502px;
+    height: 72px;
+    left: 37px;
+    top: 362px;
+
+    background: #4846B8;
+    border: 1px solid #3C37FF;
+    border-radius: 20px;
+  }
+  .googleLogin{
+
+    position: absolute;
+    width: 204px;
+    height: 30px;
+    left: 22%;
+    top: 380px;
+
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+
+    color: white;
+  }
+  .logoGoogle{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 15%;
+    top: 372px;
+  }
+  .developed{
+    margin: 4px solid red;
+    position: absolute;
+    width: 226px;
+    height: 30px;
+    left: 38px;
+    bottom: 50px;
+    
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;    
+    
+    color: #7B7B7B;
+  } 
+  .developer1{
+    position: absolute;
+    width: 263px;
+    height: 26px;
+    left: 38px;
+    bottom: 20px;
+    
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    
+    
+    color: #7B7B7B
+  }
+  .developer2{
+    position: absolute;
+    width: 263px;
+    height: 26px;
+    left: 580px;
+    bottom: 20px;
+    
+    /* font-family: 'Open Sans'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: #7B7B7B
+  }
+
+  
+  
+  
+  
