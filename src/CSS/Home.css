@@ -48,10 +48,10 @@
 .left-container_testimonial{
   width: 405px;
   height: 192px;
- background-color: var(--accent-color);
- border-radius: 20px;
- padding: 1rem;
- flex-direction: column;
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  padding: 1rem;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(0.5px);
@@ -77,14 +77,14 @@ align-items: center;
 
 
 .testinomial-user_info-image img{
-  width: 38px;
+width: 38px;
 height: 38px;
 border-radius: 100px;
 
 }
 
 .testinomial-user_info p{
-  font-weight: 600;
+font-weight: 600;
 font-size: 15px;
 
 color: #FEFEFE;
@@ -100,8 +100,8 @@ color: #FEFEFE;
 }
 .testinomial-content p{
   font-weight: 400;
-font-size: 14px;
-line-height: 30px;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .left-container_testimonial-btns{

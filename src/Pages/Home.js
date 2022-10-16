@@ -4,7 +4,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../Assets/Group 3.png';
 import user from '../Assets/user_img.avif';
 
+import { signInWithGoogle } from '../firebase';
+
 function Home() {
+
+
+
   return (
     <div className='home-container'>
 
@@ -43,7 +48,7 @@ function Home() {
         <p className='right-container_info'>
         Login securely , with world’s most safest authentication.
         </p>
-        <div className='right-container_btn'>
+        <div className='right-container_btn' onClick={signInWithGoogle}>
           <img src={logo} alt="" />
           <p>Continue With Google </p>
         </div>
@@ -58,7 +63,8 @@ function Home() {
       </div>
       </div>
     </div>
-  
+  // <p>{localStorage.getItem("name")}</p>
+
   )
 }
 
