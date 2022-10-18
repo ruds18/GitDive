@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { getAuth, GoogleAuthProvider, signInWithPopup} from 'firebase/auth';
+import { getAuth, GoogleAuthProvider} from 'firebase/auth';
 
 const firebaseConfig = {
     apiKey: "AIzaSyCpiJCVRLIx2NhfUL-6swjY92X9f1WMav8",
@@ -12,22 +12,24 @@ const firebaseConfig = {
   };
 
   const app = initializeApp(firebaseConfig);
-  export const auth  = getAuth(app);
 
-  const provider = new GoogleAuthProvider();
+   export const auth  = getAuth(app);
 
-  export const signInWithGoogle = () => {
-        signInWithPopup(auth, provider).then((result) => {
-            // console.log(result);
-            const name = result.user.displayName;
-            const email = result.user.email ;
-            const profilePic = result.user.photoURL ;
+  export const provider = new GoogleAuthProvider();
+  
 
-            localStorage.setItem("name", name)
-            localStorage.setItem("email", email)
-            localStorage.setItem("profilePic", profilePic)
+//   export const signInWithGoogle = () => {
+//         signInWithPopup(auth, provider).then((result) => {
+//             // console.log(result);
+//             const name = result.user.displayName;
+//             const email = result.user.email ;
+//             const profilePic = result.user.photoURL ;
 
-        }).catch((error)=>{
-            console.log(error);
-        })
-  };
+//             localStorage.setItem("name", name)
+//             localStorage.setItem("email", email)
+//             localStorage.setItem("profilePic", profilePic)
+
+//         }).catch((error)=>{
+//             console.log(error);
+//         })
+//   };

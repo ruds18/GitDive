@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../CSS/Home.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../Assets/Group 3.png';
 import user from '../Assets/user_img.avif';
 
-import { signInWithGoogle } from '../firebase';
 
-function Home() {
+
+function Home({signInWithGoogle,  userName, setUserName, userImage, setuserImage}) {
+
 
 
 
@@ -52,7 +53,9 @@ function Home() {
           <img src={logo} alt="" />
           <p>Continue With Google </p>
         </div>
+         
       </div>
+ 
 
       <div className='right-container_devlopers'>
         <div className='developers-heading'><p>Devloped by</p> </div>
