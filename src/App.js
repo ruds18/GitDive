@@ -5,6 +5,7 @@ import Home from "../src/Pages/Home";
 import {auth,provider} from './firebase'
 import {signInWithPopup} from 'firebase/auth';
 import { useState } from 'react';
+import UserPage from '../src/Pages/UserPage'
 
 function App() {
   const [userName, setUserName ] = useState([]);
@@ -23,6 +24,13 @@ function App() {
       <Router>
           <Routes>
             <Route path="/" element={<Home
+            userName={userName}
+            userImage={userImage}
+             signInWithGoogle={signInWithGoogle} />} />
+             
+          </Routes>
+          <Routes>
+            <Route path="/search" element={<UserPage
             userName={userName}
             userImage={userImage}
              signInWithGoogle={signInWithGoogle} />} />
