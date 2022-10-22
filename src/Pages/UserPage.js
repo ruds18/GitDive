@@ -2,8 +2,15 @@ import React from 'react'
 import '../CSS/UserPage.css'
 import logout from '../Assets/logout.png'
 import info from '../Assets/Info.png'
+import { Navigate } from 'react-router-dom'
 
-function UserPage() {
+
+function UserPage({ authorized }) {
+
+  if (!authorized){
+      return <Navigate to="/"/> ;
+  }
+
   return (
     <div className='user-container'>
         <div className='left'>

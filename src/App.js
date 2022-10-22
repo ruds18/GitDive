@@ -26,14 +26,17 @@ function App() {
             <Route path="/" element={<Home
             userName={userName}
             userImage={userImage}
-             signInWithGoogle={signInWithGoogle} />} />
+            signInWithGoogle={signInWithGoogle} 
+            />} />
              
           </Routes>
           <Routes>
             <Route path="/search" element={<UserPage
             userName={userName}
             userImage={userImage}
-             signInWithGoogle={signInWithGoogle} />} />
+            signInWithGoogle={signInWithGoogle} 
+            component={() => <UserPage authorized={true} />}
+            />} />
              
           </Routes>
         </Router>
